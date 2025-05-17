@@ -1,0 +1,27 @@
+Connections:
+
+ * Common Cathode:
+
+	Segment a: Nano D2 → 220–330Ω resistor → display pin a
+	Segment b: Nano D3 → 220–330Ω resistor → display pin b
+	Segment c: Nano D4 → 220–330Ω resistor → display pin c
+	Segment d: Nano D5 → 220–330Ω resistor → display pin d
+	Segment e: Nano D6 → 220–330Ω resistor → display pin e
+	Segment f: Nano D7 → 220–330Ω resistor → display pin f
+	Segment g: Nano D8 → 220–330Ω resistor → display pin g
+	Common pin: Nano GND
+
+ * Common Anode:
+
+	Segment a: Display pin a → 220–330Ω resistor → Nano D2
+	Segment b: Display pin b → 220–330Ω resistor → Nano D3
+	Segment c: Display pin c → 220–330Ω resistor → Nano D4
+	Segment d: Display pin d → 220–330Ω resistor → Nano D5
+	Segment e: Display pin e → 220–330Ω resistor → Nano D6
+	Segment f: Display pin f → 220–330Ω resistor → Nano D7
+	Segment g: Display pin g → 220–330Ω resistor → Nano D8
+	Common pin: Nano 5V
+
+Resistors: Use 220–330Ω to limit current (~10–15mA per segment).
+
+Pinout: Verify the display’s a–g pins match the code (D2=segA, D3=segB, etc.) using the datasheet or manual testing.
