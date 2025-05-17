@@ -13,7 +13,7 @@ import os
 
 # Arduino serial setup
 arduino = None
-serial_port = '/dev/cu.usbserial-1140'  # Update this for your system
+serial_port = 'COM3'  # Update this for your system
 try:
     print(f"Connecting to {serial_port}")
     arduino = serial.Serial(serial_port, 9600, timeout=1)
